@@ -1,0 +1,50 @@
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.07;
+  color: $accent-color;
+
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+
+.logo__header {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.07;
+  color: #000000;
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 88px;
+  }
+}
+
+.logo__footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.07;
+  color: $accent-color;
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+.logo__footer--second {
+  color: $primary-white-color;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.07;
+  @media screen and (max-width: 1199px) {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
